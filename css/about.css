@@ -1,0 +1,84 @@
+body {
+/*
+    background: #D0D8DB;
+    padding-top: 60px;
+    padding-bottom: 40px;
+*/
+}
+
+/*
+textarea {
+    resize: none;
+}
+*/
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons{
+ display: flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+    padding: 30px;
+    position: absolute;
+    top: 80%;
+    
+    
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-facebook-f, .fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #4b8884;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #4b8884;
+  background: #fff;
+  border-color: #4b8884;
+}
+.rounded-social-buttons .social-button.instagram {
+  background: #4b8884;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #4b8884;
+  background: #fff;
+  border-color: #4b8884;
+}
